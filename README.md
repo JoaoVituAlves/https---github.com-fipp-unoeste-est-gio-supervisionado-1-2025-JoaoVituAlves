@@ -48,4 +48,4 @@ React Hook Form (manipulação de formulários)
 
 Context API (gerenciamento de estado global)
 
-Git/GitHub (controle de versão)
+Git/GitHub (controle de versão).
