@@ -1,0 +1,75 @@
+/* modalCustom.css */
+
+.modal {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+  backdrop-filter: blur(4px);
+  z-index: 1050;
+}
+
+.modal-dialog {
+  max-width: 700px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.modal-content {
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  border: none;
+  background: #fff;
+}
+
+.modal-header {
+  background-color: #0d6efd;
+  color: white;
+  font-weight: 600;
+  padding: 1rem 1.5rem;
+  border-bottom: none;
+}
+
+.modal-header .btn-close {
+  filter: brightness(0) invert(1);
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+}
+
+.modal-header .btn-close:hover {
+  opacity: 1;
+}
+
+.modal-body {
+  padding: 1.5rem 2rem;
+  color: #333;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.modal-footer {
+  padding: 1rem 1.5rem;
+  border-top: none;
+  display: flex;
+  justify-content: flex-end;
+  background: #f8f9fa;
+}
+
+.modal-footer .btn {
+  min-width: 90px;
+  font-weight: 600;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.modal-footer .btn-secondary:hover {
+  background-color: #f4c314;
+  color: #fff;
+  border-color: #0a58ca;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+}
+
+ul li ul li {
+  list-style-type: circle;
+  margin-left: 1.5rem;
+}
